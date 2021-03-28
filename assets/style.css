@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --dark: #181b26;
+}
+
 body {
     color: turquoise;
     font-family: Helvetica, Arial, sans-serif;
@@ -12,4 +16,34 @@ body {
 header {
     padding: 20px 35px;
     background-color: orange;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: forestgreen;
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color:gold;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.5vw;
 }
