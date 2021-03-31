@@ -9,25 +9,30 @@
 }
 
 body {
-    color: turquoise;
+    color: black;
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/* Header Start */
+
 header {
-    padding: 20px 35px;
-    background-color: orange;
+    padding: 10px 25px;
+    background-color: rgb(63, 63, 63);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: forestgreen;
+    color: rgb(63, 63, 63);
     margin: 0;
 }
 
 header a {
     text-decoration: none;
-    color:gold;
+    color: #fff;
 }
 
 header nav {
@@ -46,4 +51,46 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.5vw;
+}
+
+/* Header End */
+
+/* Footer Start */
+
+footer {
+    background: rgb(63, 63, 63);
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+footer h2 {
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+}
+
+/* Footer End */
+
+/* Hero Start */
+
+.hero {
+    background-image: url("../assets/images/pexels-matt-hardy-3560136.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
 }
