@@ -11,6 +11,7 @@
 body {
     color: black;
     font-family: Helvetica, Arial, sans-serif;
+    background-color: #ebe4da;
 }
 
 /* Header Start */
@@ -88,9 +89,41 @@ footer h2 {
 
 .hero-cta {
     width: 35%;
-    text-align: right;
+    text-align: center;
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
     line-height: 1.3;
+}
+
+/* About me Section */
+
+.intro img {
+    max-width: 20%;
+}
+
+.horiseon img {
+    max-width: 20%;
+}
+
+.run-buddy img {
+    max-width: 20%;
+}
+
+.contact-me nav {
+    margin: 7px 0;
+}
+
+.contact-me nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.contact-me nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.5vw;
 }
